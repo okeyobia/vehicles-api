@@ -18,7 +18,7 @@ import java.util.Collections;
 @EnableSwagger2
 @ApiResponses({
         @ApiResponse(code=400, message = "This is a bad request, Please use the right API documentation"),
-        @ApiResponse(code=401, message = "This is a bad request, Please use the right API documentation"),
+        @ApiResponse(code=401, message = "You are not authorized, Please use adequate credentials"),
         @ApiResponse(code=500, message = "The server is down. Please make sure the vehicle api is running")
         }
 )
